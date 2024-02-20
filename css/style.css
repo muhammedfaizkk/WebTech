@@ -32,6 +32,7 @@ a {
 
 
 /* Header styles starts here */
+
 .header-section {
     background-color: #0b4bca;
     color: var(--color-secondary) !important;
@@ -86,7 +87,7 @@ a {
 
 /* Header styles ends here */
 
-/* Carousel styles */
+/* Carousel styles starts here */
 .carousel-item {
     background-color: var(--color-defaul);
 
@@ -103,6 +104,8 @@ a {
 .carousel-item .caption a {
     color: var(--color-defaul);
 }
+
+/* Carousel styles end here */
 
 /* Content common styles starts*/
 
@@ -124,7 +127,7 @@ a {
 
 /* Content common styles ends*/
 
-/* About us */
+/* Aboutus section starts here*/
 .about-section h2 {
     position: relative
 }
@@ -157,8 +160,9 @@ a {
 .about-right li i {
     color: var(--color-defaul);
 }
+/* Aboutus section end here*/
 
-/* Porfolio Section*/
+/* Porfolio Section starts here*/
 .portfolio-nav{
  display: flex;
  gap: 1rem;
@@ -203,17 +207,17 @@ a {
     margin: 0 1px;
 }
 
+/* Porfolio Section end here*/
 
 
-
-/* servises section */
+/* Servises Section starts here*/
 .servises-img{
     width: 100px;
     height: 100px;
 }
+/* Servises Section end here*/
 
-
-/* Footer Section */
+/* Footer Section starts here*/
 
 .footer-main{
     display: flex;
@@ -246,3 +250,4 @@ a {
     color: var(--color-secondary);
     padding:30px 0px;
   }
+  /* Footer Section end here*/
