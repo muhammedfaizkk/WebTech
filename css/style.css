@@ -50,6 +50,13 @@ a {
     color: var(--color-secondary);
     opacity: 1;
 }
+
+.header-contact:hover{
+    border-bottom:3px solid  var(--color-secondary);
+    
+   
+}
+
 .nav-main {
     background-color: var(--color-defaul);
     transition: all 0.5s;
@@ -254,22 +261,11 @@ a {
     color: var(--color-secondary);
     padding:30px 0px;
   }
-  .footer-item a {
-    color: var(--color-secondary) !important;
+ 
+
+  .footer-item:hover{
+    border-bottom: 2px solid var(--color-secondary);
     transition: all 0.5s;
-    display: block;
-    position: relative;
-}
-  .footer-item:hover a:after{
-    position: absolute;
-    content: '';
-    height: 3px;
-    background-color: var(--color-secondary);
-    width: 50%;
-    left: 0;
-    bottom: -2px;
-    right:60px;
-    margin: auto;
-    
+    display: inline;
 }
   /* Footer Section end here*/
