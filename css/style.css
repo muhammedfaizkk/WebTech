@@ -52,8 +52,7 @@ a {
 }
 
 .header-contact:hover{
-    border-bottom:3px solid  var(--color-secondary);
-    
+    border-bottom: 2px solid var(--color-secondary);
    
 }
 
