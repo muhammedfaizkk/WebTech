@@ -169,6 +169,10 @@ a {
  justify-content: center;
  font-weight: bold;
  font-size:1.5rem;
+ color: black !important;
+}
+.portfolio-nav li a{
+   color: var(--color-primary);
 }
 
 @media(max-width:582px) {
